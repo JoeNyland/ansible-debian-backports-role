@@ -1,0 +1,11 @@
+---
+- name: Install Debian backports
+  become: true
+  tags: debian_backports
+  block:
+    - name: Install repo
+      apt_repository:
+        repo: deb http://deb.debian.org/debian {{ ansible_distribution_release }}-backports main {{ debian_backports_additional_components | join(' ') }}
+        state: present
+        filename: '{{ ansible_distribution_release }}-backports'
+        update_cache: true

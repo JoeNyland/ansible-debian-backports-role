@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Joe Nyland
+  role_name: debian_backports
+  namespace: joenyland
+  description: Installs Debian backports
+  license: MIT
+  min_ansible_version: '2.1'
+  platforms:
+  - name: Debian
+    versions:
+      - bullseye # 11 (stable)
+      - buster # 10 (oldstable)
+      - stretch # 9 LTS (oldoldstable)
+      - jessie # 8 LTS (archived)
+  galaxy_tags:
+    - debian
+    - backports
+dependencies: []
