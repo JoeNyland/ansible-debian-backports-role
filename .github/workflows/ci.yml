@@ -19,6 +19,7 @@ jobs:
   molecule:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false # If tests fail in one image, we still want the others to carry on running
       matrix:
         image:
           - geerlingguy/docker-debian11-ansible # bullseye (stable)
