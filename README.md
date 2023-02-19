@@ -1,6 +1,8 @@
 joenyland.debian_backports
 =========================
 
+[![CI](https://github.com/JoeNyland/ansible-debian-backports-role/actions/workflows/ci.yml/badge.svg)](https://github.com/JoeNyland/ansible-debian-backports-role/actions/workflows/ci.yml)
+
 Installs [Debian backports repo](https://backports.debian.org/).
 
 Requirements
