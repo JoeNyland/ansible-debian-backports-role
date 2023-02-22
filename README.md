@@ -27,14 +27,6 @@ Example Playbook
 ----------------
 
 ```yaml
-# requirements.yml
-roles:
-  - name: joenyland.debian_backports
-    src: https://github.com/JoeNyland/ansible-debian-backports-role
-```
-
-```yaml
-# Playbook
 - hosts: server
   roles:
     - joenyland.debian_backports
