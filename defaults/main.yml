@@ -1,2 +1,3 @@
 ---
+debian_backports_enabled: true
 debian_backports_additional_components: []

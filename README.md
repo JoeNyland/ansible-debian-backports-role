@@ -13,10 +13,13 @@ None.
 Role Variables
 --------------
 
-
 ### `debian_backports_additional_components`
 
 Allows additional 'components' to be selected. E.g. `contrib`.
+
+### `debian_backports_enabled`
+
+Whether the repo should be enabled on a host.
 
 Dependencies
 ------------
